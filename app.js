@@ -15,7 +15,7 @@ app.use(expressMongoDb('mongodb://localhost/dredd-example'));
 
 // return HAL by default
 app.use((req, res, next) => {
-  res.contentType('application/hal+json');
+  res.contentType('application/json');
   next();
 });
 
