@@ -4,7 +4,7 @@ const expressMongoDb = require('express-mongo-db');
 const bodyParser = require('body-parser');
 
 
-// creating Express.js server
+// creating Express.js server 
 app = express();
 
 // parse incoming data as JSON
@@ -16,6 +16,7 @@ app.use(expressMongoDb('mongodb://localhost/dredd-example'));
 // return HAL by default
 app.use((req, res, next) => {
   res.contentType('application/json');
+// added this line
   next();
 });
 
