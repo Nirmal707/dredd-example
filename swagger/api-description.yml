@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   version: "0.0.0"
-  title: Gist Fox API
+  title: Gist Fox APIs
   description: Gist Fox API is a sample pastes service similar to http://gist.github.com.
   license:
     name: MIT
