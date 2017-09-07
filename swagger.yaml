@@ -20,7 +20,7 @@ paths:
       description: Gist Fox API entry point. Provides initial API affordances in the form of the HTTP Link header and HAL links.
       operationId: Get_Retrieve the Entry Point_
       produces:
-      - application/json
+      - application/HAL+json
       parameters: []
       responses:
         200:
